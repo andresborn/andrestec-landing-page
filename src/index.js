@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Bungee/Bungee-Regular.ttf';
+import './fonts/Bungee_Shade/BungeeShade-Regular.ttf';
+import './fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf';
+import './fonts/VT323/VT323-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
