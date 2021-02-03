@@ -69,14 +69,22 @@ body {
   }
 }
 
-.nav-title-letter {
-  font-family: "BungeeShade";
+@keyframes color-change {
+  from {
+    color: white;
+  }
+  to {
+    color: var(--golden);
+  }
 }
 
-.nav-title-letter:hover {
-  animation-name: bounce;
-  animation-timing-function: ease;
-  animation-duration: 0.9s;
+.nav-title-letter {
+  font-family: "BungeeShade";
+  color: white;
+}
+
+.bounce:hover {
+  animation: bounce 0.9s ease-in-out, color-change 0.5s ease-in-out;
 }
 
 .link {
@@ -84,6 +92,7 @@ body {
   color: white;
 }
 .link:hover {
+  animation: color-change 0.5s ease-in-out;
   color: var(--golden);
 }
 
