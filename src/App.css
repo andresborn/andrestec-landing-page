@@ -76,7 +76,7 @@ body {
 .nav-title-letter:hover {
   animation-name: bounce;
   animation-timing-function: ease;
-  animation-duration: 1.5s;
+  animation-duration: 0.9s;
 }
 
 .link {
