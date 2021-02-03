@@ -1,9 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Navbar } from './components/Navbar.js';
+import { Header } from './components/Header.js';
 
 const App = () => {
   return (
-   <div>Hello World!</div>
+   <div className="App">
+     <Navbar />
+     <Header />
+   </div>
   );
 }
 

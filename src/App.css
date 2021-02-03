@@ -1,3 +1,13 @@
+:root {
+  --golden: #ffb916;
+  --black: #001a23;
+  --blue: #14213d;
+}
+
+body {
+  background-color: var(--blue);
+  color: white;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +45,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-30px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+
+  70% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+.nav-title-letter {
+  font-family: "BungeeShade";
+}
+
+.nav-title-letter:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 1.5s;
+}
+
+.link {
+  font-family: "Bungee";
+  color: white;
+}
+.link:hover {
+  color: var(--golden);
+}
+
+.header {
+  font-size: 10vh;
 }
