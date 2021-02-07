@@ -92,7 +92,7 @@ body {
   color: white;
 }
 .link:hover {
-  animation: color-change 0.5s ease-in-out;
+  animation: color-change 0.1s ease-in-out;
   color: var(--golden);
 }
 
