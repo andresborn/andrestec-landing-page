@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const Header = () => {
+const Header = () => {
     return (
         
-            <div className="d-flex justify-content-center justify-content-sm-end mx-5 header">
+            <div className="d-flex justify-content-center header"
+            style={{width: "100%", height: "auto"}}
+            >
                 <span className="nav-title-letter bounce">A</span>
                 <span className="nav-title-letter bounce">n</span>
                 <span className="nav-title-letter bounce">d</span>
@@ -17,3 +19,5 @@ export const Header = () => {
             </div>
     )
 }
+
+export default Header
