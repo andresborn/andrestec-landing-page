@@ -1,7 +1,6 @@
 import Home from "../components/Home";
 import Project from "../components/Project";
 import swBlog from "../images/sw-blog-screenshot.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faHtml5,
     faCss3,

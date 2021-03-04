@@ -1,11 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faHtml5,
-    faCss3,
-    faJsSquare,
-    faReact,
-    faBootstrap, } from "@fortawesome/free-brands-svg-icons";
 
 const Project = ({ title, link, date, image, icons, description }) => {
     return (
