@@ -17,8 +17,9 @@ const Main = () => {
     return (
             <div className="container">
                 <Home />
-                <Project title="StarWars Blog" link="github.com" date="February 2021" image={swBlog}
-                    icons={[faHtml5, faCss3, faJsSquare, faReact, faBootstrap]} 
+                <Project title="StarWars Blog" link="https://github.com/andresborn/sw-blog" date="February 2021" image={swBlog}
+                    icons={[faHtml5, faCss3, faJsSquare, faReact, faBootstrap]}
+                    description="This StarWars blog fetches data from SWAPI.dev to populate its views. Uses Flux architecture to maintain the data and its logic in one place. Distributes the data accross the app using the Context API. Uses Routing to switch views and has a filterable search bar to access the items, you can also store your favorite characters in LocalStorage." 
                  />
             </div>
     );
