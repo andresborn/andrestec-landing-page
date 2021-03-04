@@ -37,7 +37,7 @@ const Home = () => {
                 <div className="col-12 aqua-border"></div>
             </div>
             <div className="row">
-
+                
             </div>
         </div>
     );
