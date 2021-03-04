@@ -1,18 +1,11 @@
-import Navbar from "../components/Navbar";
-import About from "../components/About";
+import Home from "../components/Home";
 
 const Main = () => {
-
-  return (
-    <div className="container">
-      <div style={{ minHeight: "10vh" }}>
-        <Navbar />
-      </div>
-      <div style={{maxHeight: "90vh"}}>
-        <About />
-      </div>
-    </div>
-  );
+    return (
+            <div className="container">
+                <Home />
+            </div>
+    );
 };
 
 export default Main;
