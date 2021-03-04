@@ -1,8 +1,12 @@
 import React from "react";
 
 const Navbar = () => {
+  const bgColor = {
+    backgroundColor: "#18191e"
+  }
   return (
-    <nav className="navbar justify-content-end row">
+    <div className="container container-fluid">
+      <nav style={bgColor} className="navbar fixed-top justify-content-end row">
       <a
         className="link nav-link d-flex flex-row align-items-center link"
         href="/"
@@ -29,6 +33,8 @@ const Navbar = () => {
         Contact
       </a>
     </nav>
+    </div>
+    
   );
 };
 
