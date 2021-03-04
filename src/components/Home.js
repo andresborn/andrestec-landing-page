@@ -1,8 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
     return (
-        <div className="d-flex flex-column justify-content-center p-5">
+            <div className="d-flex flex-column justify-content-center p-5">
             <div style={{ minHeight: "50vh" }} className="row">
                 <div className="col-lg-6 mx-auto text-white my-5">
                     <h1 className="name">Andrés Born</h1>
@@ -37,7 +39,18 @@ const Home = () => {
                 <div className="col-12 aqua-border"></div>
             </div>
             <div className="row">
-                
+                <div className="col-lg-6 my-5">
+                    <h1 className="text-white">
+                        I build data-driven applications with React
+                    </h1>
+                </div>
+                <div className="col-lg-6 my-5 d-flex justify-content-around align-items-center">
+                <a href="https://github.com/andresborn/">
+                <FontAwesomeIcon className="link" icon={faGithub} />
+                </a>
+                    
+                    <FontAwesomeIcon className="link" icon={faLinkedin} />
+                </div>
             </div>
         </div>
     );

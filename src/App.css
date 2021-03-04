@@ -1,4 +1,5 @@
 :root {
+    --brightaqua: #7bddd2;
     --aqua: #4ec0b3;
     --yellow: #e9c46a;
     --orange: #f4a261;
@@ -67,8 +68,30 @@
     }
 }
 
+@keyframes background-color-change {
+    from {
+        color: var(--aqua);
+    }
+    to {
+        color: var(--orange);
+    }
+}
+
 body {
     background-color: black;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.project {
+    background-color: #38383d;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -85,9 +108,8 @@ body {
 }
 
 .link {
-    font-family: "Bungee";
     color: white;
-    font-size: 0.9rem;
+    font-size: 2rem;
 }
 .link:hover {
     animation: color-change 0.1s ease-in-out;
@@ -122,4 +144,17 @@ body {
     border-color: var(--aqua);
     border-bottom: 2px;
     width: 10px;
+}
+
+.gray {
+    color: #404040;
+}
+
+.code-button {
+    background-color: var(--aqua);
+    transition: 0.3s;
+}
+
+.code-button:hover {
+    background-color: var(--brightaqua);
 }
