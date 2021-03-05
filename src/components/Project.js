@@ -26,7 +26,7 @@ const Project = ({ title, link, date, image, icons, description }) => {
                 <div className="row d-flex justify-content-center mx-4 p-5">
                     <div className="col-lg-6">
                         <h1 className="my-3">Overview</h1>
-                        <p className="text-muted my-4">{description}</p>
+                        <p className="text-muted my-4 text-justify">{description}</p>
                     </div>
                     <div className="col-lg-6">
                     <h1 className="my-3">Technologies</h1>
