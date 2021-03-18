@@ -8,7 +8,7 @@ import {
     faGit,
     faReact,
     faBootstrap,
-    faPython,
+    faPython
 } from "@fortawesome/free-brands-svg-icons";
 import { faFlask } from "@fortawesome/free-solid-svg-icons";
 

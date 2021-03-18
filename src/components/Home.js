@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
     return (
@@ -48,8 +49,9 @@ const Home = () => {
                 <a href="https://github.com/andresborn/">
                 <FontAwesomeIcon className="link" icon={faGithub} />
                 </a>
-                    
-                    <FontAwesomeIcon className="link" icon={faLinkedin} />
+                    <a href="" download>
+                    <FontAwesomeIcon className="link" icon={faFile} />
+                    </a>
                 </div>
             </div>
         </div>
