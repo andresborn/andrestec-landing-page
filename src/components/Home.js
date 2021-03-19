@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+import andresborncv from "../images/andresborncv.pdf";
 
 const Home = () => {
     return (
@@ -49,7 +50,7 @@ const Home = () => {
                 <a href="https://github.com/andresborn/">
                 <FontAwesomeIcon className="link" icon={faGithub} />
                 </a>
-                    <a href="./images/andresborncv.pdf" download target="_blank">
+                    <a href={andresborncv} target="_blank">
                     <FontAwesomeIcon className="link" icon={faFile} />
                     </a>
                 </div>

@@ -2,6 +2,7 @@
     --brightaqua: #7bddd2;
     --aqua: #4ec0b3;
     --yellow: #e9c46a;
+    --brightorange: #f8b37a;
     --orange: #f4a261;
     --red: #e76f51;
 }
@@ -157,4 +158,13 @@ a:hover {
 
 .code-button:hover {
     background-color: var(--brightaqua);
+}
+
+.live-button {
+    background-color: var(--orange);
+    transition: 0.3s;
+}
+
+.live-button:hover {
+    background-color: var(--brightorange);
 }

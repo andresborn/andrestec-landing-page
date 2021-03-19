@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Project = ({ title, link, date, image, icons, description }) => {
+const Project = ({ title, codeLink, liveLink, date, image, icons, description }) => {
     return (
         <div className="container container-fluid text-white project my-5">
             <div style={{ backgroundColor: "black", borderRadius: "10px" }} className="container">
@@ -10,9 +10,14 @@ const Project = ({ title, link, date, image, icons, description }) => {
                         <h2>{title}</h2>
                     </div>
                     <div className="col d-flex justify-content-center my-2">
-                        <div className="btn code-button">
-                            <a href={link}>
+                        <div className="btn code-button mx-1">
+                            <a href={codeLink}>
                                 <code>Code</code>
+                            </a>
+                        </div>
+                        <div className="btn live-button mx-1">
+                            <a href={liveLink}>
+                                <code>Live</code>
                             </a>
                         </div>
                     </div>
