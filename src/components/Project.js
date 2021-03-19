@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Project = ({ title, codeLink, liveLink, date, image, icons, description }) => {
     return (
-        <div className="container container-fluid text-white project my-5">
+        <div className="container container-fluid text-white project my-5 d-flex justify-content-center" >
             <div style={{ backgroundColor: "black", borderRadius: "10px" }} className="container">
                 <div className="row d-flex flex-column p-5">
                     <div className="col d-flex justify-content-center my-2">
@@ -28,14 +28,14 @@ const Project = ({ title, codeLink, liveLink, date, image, icons, description })
                 <div className="row d-flex justify-content-center p-5">
                     <img src={image} alt={title} width="95%" height="100%" />
                 </div>
-                <div className="row d-flex justify-content-center mx-4 p-5">
+                <div className="row d-flex justify-content-center mx-lg-4 p-5">
                     <div className="col-lg-6">
                         <h1 className="my-3">Overview</h1>
                         <p className="text-muted my-4 text-justify">{description}</p>
                     </div>
                     <div className="col-lg-6">
                     <h1 className="my-3">Technologies</h1>
-                        <div className="text-muted h1 d-flex justify-content-start my-4 px-1">
+                        <div className="text-muted h1 d-flex justify-content-center justify-content-md-start my-4 px-1">
                         {icons.map(icon => <FontAwesomeIcon icon={icon} className="mx-2" /> )}
                         </div>
                     </div>

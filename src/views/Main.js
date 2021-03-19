@@ -23,7 +23,7 @@ const Main = () => {
                 date="March 2021"
                 liveLink="http://kachingcr.herokuapp.com/"
                 image={kaChing} 
-                icons={[faHtml5, faCss3, faJsSquare, faReact, faPython, faBootstrap, faDatabase, faGit]} 
+                icons={[faJsSquare, faReact, faPython, faBootstrap, faDatabase, faGit]} 
                 description="kaChing! is a budget tracker that lets users keep track of their income and expenses on a monthly and weekly basis. This project uses React for the Client-Side, Flux and Context API to organize the data distribution, React Router Dom to handle routing, Chart.js for data visualization and Bootstrap for styling. The Back-End is built with Python Flask, SQLAlchemy for the data models and querying, and PostgreSQL for the database." />
                 <Project title="StarWars Blog" 
                 codeLink="https://github.com/andresborn/sw-blog" 

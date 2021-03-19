@@ -127,7 +127,7 @@ a:hover {
 
 .role {
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .role:hover {
     animation: color-change 0.3s ease-in-out;
