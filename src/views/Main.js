@@ -12,7 +12,7 @@ import {
     faBootstrap,
     faPython
 } from "@fortawesome/free-brands-svg-icons";
-import { faFlask, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Main = () => {
     return (

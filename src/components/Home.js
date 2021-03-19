@@ -6,7 +6,7 @@ import andresborncv from "../images/andresborncv.pdf";
 
 const Home = () => {
     return (
-            <div className="d-flex flex-column justify-content-center p-5">
+            <div className="d-flex flex-column justify-content-center p-4">
             <div style={{ minHeight: "50vh" }} className="row">
                 <div className="col-lg-6 mx-auto text-white my-5">
                     <h1 className="name">Andrés Born</h1>
