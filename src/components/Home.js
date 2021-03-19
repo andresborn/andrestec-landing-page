@@ -49,7 +49,7 @@ const Home = () => {
                 <a href="https://github.com/andresborn/">
                 <FontAwesomeIcon className="link" icon={faGithub} />
                 </a>
-                    <a href="" download>
+                    <a href="./images/andresborncv.pdf" download target="_blank">
                     <FontAwesomeIcon className="link" icon={faFile} />
                     </a>
                 </div>
