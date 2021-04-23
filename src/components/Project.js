@@ -34,8 +34,8 @@ const Project = ({ title, codeLink, liveLink, date, image, icons, description })
                         <p className="text-muted my-4 text-justify">{description}</p>
                     </div>
                     <div className="col-lg-6">
-                    <h1 className="my-3 d-flex justify-content-center justify-content-sm-start">Technologies</h1>
-                        <div className="text-muted h1 d-flex justify-content-center justify-content-md-start my-4 px-1">
+                    <h1 className="my-3">Technologies</h1>
+                        <div className="text-muted h1 d-flex justify-content-start my-4 px-1">
                         {icons.map(icon => <FontAwesomeIcon icon={icon} className="mx-2" /> )}
                         </div>
                     </div>
