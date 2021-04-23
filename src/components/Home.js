@@ -50,7 +50,8 @@ const Home = () => {
                 <a href="https://github.com/andresborn/">
                 <FontAwesomeIcon className="link" icon={faGithub} />
                 </a>
-                    <a href={andresborncv} target="_blank">
+                    <a href={andresborncv} target="_blank"
+                    rel="noreferrer">
                     <FontAwesomeIcon className="link" icon={faFile} />
                     </a>
                 </div>
